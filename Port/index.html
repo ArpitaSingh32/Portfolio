@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <!-- Page1 (Landing Page) starts from Here -->
+      <div id="page1">
+        <!-- Nav-Bar Code Starts Here -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <img src="./static/logo.jpg" alt="" srcset="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel"
+          >
+            <div class="offcanvas-header">
+              <img src="./static/logo.jpg" alt="" srcset="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#cover-nav"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#page2">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#page3">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#page4">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#page6">Contact</a>
+                </li>
+
+                <!-- Increase the number of li tag to increase the menu bar items -->
+
+                <li class="nav-item resume-items">
+                  <a href="./cv_compressed.pdf" download="Arpita_Resume" target="_blank"><button id="resume">RESUME</button></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Nav-Bar Code Ends Here -->
+
+        <!-- A #corner-nav is a element which is just used to cover behind the nav bar area  beacuse its position is fixed so the element below
+              the nav bar comes behind it -->
+        <div id="cover-nav"></div>
+        <!-- #corner-nav element ends here -->
+
+        <!-- front page main element (Hero Section) starts from here -->
+        <div id="page1-main">
+          <!-- left div for the text  -->
+          <div id="left">
+            <h4>NAMASTE <span>🤚</span>,</h4>
+            <h3>WELCOME TO MY PORTFOLIO WEBSITE</h3>
+            <h1>
+              I'm <br />
+              Arpita Singh
+            </h1>
+            <h5>A .NET Developer</h5>
+            <h4>
+              I Have Been Working Since 2021. I am Proficient in Graphics
+              Design, Front End Development and Backend Development.
+            </h4>
+            <div id="icons">
+              <a href="https://www.linkedin.com/in/arpita-singh-934a1b273"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/ArpitaSingh32/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!-- left div ends here -->
+
+          <!-- Right div is beacuse of image -->
+          <div id="right">
+            <img src="./static/Apita_Image.jpg" alt="" srcset="" />
+          </div>
+          <!-- Right div ends Here -->
+        </div>
+        <!-- #page1-main part(Hero section) ends Here -->
+      </div>
+      <!-- Page1 (Landing Page) section ends Here -->
+
+      <!-- Page2 starts from here which includes About section -->
+      <div id="page2">
+        <!-- Heading class to define the heading for all the pages -->
+        <div class="heading">
+          <h3>About Me</h3>
+          <h5>Get to know me:</h5>
+        </div>
+        
+        <div id="page2-main">
+          <h1>Arpita Singh</h1>
+          <div id="page2-main-bottom">
+            <div id="p2-left" class="aboutsec">
+              <h3>Myself</h3>
+              <p>
+                I am Arpita Singh, a .Net Developer  highly skilled in crafting responsive, interactive interfaces and websites using HTML, CSS, JavaScript, React-js, Bootstrap for the Frontend Developement and .Net with MVC for the Backend Developement, & SQL with expertise. I also have some Experience in Django which is a Python web Framework used to make Web Application.
+              </p>
+              <h3>My Experience</h3>
+              <p>
+                Currently I am working as a .Net Developer at Techpile Technology Pvt. Ltd. At this organization I worked on a lot of Projects from where I gain a very well Experience.
+              </p>
+            </div>
+            <div id="p2-center" class="aboutsec">
+              <img src="./static/Apita_Image.jpg" alt="" srcset="">
+            </div>
+            <div id="p2-right" class="aboutsec">
+              <h3>My Education</h3>
+               <h5>GGP Gorakhpur</h5>
+               <p><b>Course :- </b>Diploma in Computer Science and Engineering</p>
+               <p><b>Address :- </b>Ashuran Chowk, Gorakhpur, Uttar Pradesh</p>
+               <p><b>Start Date :- </b>July  - 2021</p>
+               <p><b>End Date :- </b>July  - 2024</p>
+               <h5>My Schooling</h5>
+               <p><b>12 <sup>th</sup> and 10 <sup>th</sup> :- 
+               </b> PG Senior Secondary School </p>
+               <p><b>Address :- </b>Captainganj - Kushinagar , Uttar Pradesh</p>
+            </div>
+          </div>
+        </div>
+        <!-- heading class ends Here -->
+      </div>
+      <!-- Page2 (About) section ends Here -->
+
+      <!-- Page3 starts here which includes Services Section -->
+      <div id="page3">
+        <div class="heading">
+          <h3>My Services</h3>
+          <h5>What I do?</h5>
+        </div>
+
+        <!-- page3-main element starts from Here -->
+        <div id="page3-main">
+          <!-- p3-left element for the Web Developemt part -->
+          <div id="p3-left">
+            <div class="services-section">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+
+              <!-- Change the paragraph content as you want -->
+              <p>
+                Develope various category of websites like Cab Services,
+                E-Commerce, Event Management System, and personal Projects.
+              </p>
+            </div>
+          </div>
+          <!-- p3-left element (Web Developement part) ends Here -->
+
+          <!-- p3-right starts which includes Web Designing Section -->
+          <div id="p3-right">
+            <div class="services-section">
+              <i class="fa-brands fa-figma"></i>
+              <h3>Web Design</h3>
+
+              <!-- Change the paragraph content as you want -->
+              <p>
+                Design Futuristic, Vissually Appealing and User Friendly
+                Interface for all devices. Highly skilled in using the web
+                design tools like Figma.
+              </p>
+            </div>
+          </div>
+          <!-- p3-right section (Web Designing Part) ends Here -->
+        </div>
+      </div>
+      <!-- page3 (Services) Section ends Here -->
+
+      <!-- Page4 section starts from here which includes My Project sections -->
+      <div id="page4">
+        <div class="heading">
+          <h3>My Projects</h3>
+          <h5>My Latest Projects</h5>
+        </div>
+
+        <!-- Page4-main section starts from Here -->
+        <div id="page4-main">
+          <!-- Project-card class contain each row of the project section which means each row contains Project image
+                  and Project About section
+                 -->
+
+          <!-- First Project-card class  starts-->
+          <div class="project-card">
+            <!-- Project image -->
+            <img src="./static/project1.jpeg" alt="" srcset="" />
+
+            <!--Inner-card class contains About the Project Section which includes text -->
+            <div class="inner-card">
+              <h2>Foodie Fort</h2>
+              <p>
+                Built a online Food Delivery App by using HTML, CSS, JS and Bootstrap for Front End and
+                Python's Django Framework for Backend. You can place the order at any time and at any where.
+              </p>
+              <a href="https://github.com/ArpitaSingh32/E-commerce"><button>View <i class="fa-solid fa-eye"></i></button></a>
+            </div>
+            <!-- inner-card section ends Here -->
+          </div>
+          <!-- First Project-card class ends Here -->
+
+          <!-- Change the second project-card section -->
+
+          <!-- Second Project-card class  starts -->
+          <div class="project-card">
+            <!-- Inner-card class contains About the Project Section which includes text -->
+            <div class="inner-card">
+              <h2>To-Do List App</h2>
+              <p>
+               Built a To-Do List Web Application by using HTML, CSS, Bootstrap for the Front End and Django for the Backend. You can schedule your full days by just login in the application.
+              </p>
+              <a href="https://github.com/ArpitaSingh32/To-Do-List"><button>View <i class="fa-solid fa-eye"></i></button></a>
+            </div>
+            <!-- inner-card section ends Here -->
+
+            <!-- Project image -->
+            <img
+              src="./static/todo.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <!-- Second Project-card class ends Here -->
+
+          <!-- You can increase your project-card class element as per your need but make sure you follows the format
+                     which is in first project-card class img tag is treated as first element but in second project-card class 
+                     the inner-div class as present as first element vice-versa for next elements.
+                -->
+        </div>
+      </div>
+      <!-- page4 (My Project) section ends Here -->
+
+      <!-- Page5 section starts which includes My Skill Section -->
+      <div id="page5">
+        <div class="heading">
+          <h3>My Skills</h3>
+          <h5>Things in I which am Perfect</h5>
+        </div>
+
+        <!-- page5-main section starts  -->
+        <div id="page5-main">
+          <!-- skill-slider element works as the parent or wrapper of sliders class in which overflow-y property is set to hidden -->
+          <div id="skill-slider">
+            <!--First sliders class are the section at which the animations perform so we have to paste it twice to get a continuous animation.  -->
+            <div class="sliders">
+              <div class="img-wrapper">
+                <img src="./static/bootstrap.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/python.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/dotnet-logo.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="https://logodix.com/logo/1803742.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/mssql.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/dj.jpg" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/html.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/css-3.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/js.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/physics.png" alt="" srcset="" />
+              </div>
+              
+              <!-- Increase the Content if you want  in both the sliders class-->
+            </div>
+            <!-- First sliders class ends Here -->
+
+            <!--Second sliders class are the section at which the animations perform so we have to paste it twice to get a continuous animation.  -->
+            <div class="sliders" aril-hidden="true">
+              <div class="img-wrapper">
+                <img src="./static/bootstrap.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/python.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/dotnet-logo.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="https://logodix.com/logo/1803742.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/mssql.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/dj.jpg" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/html.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/css-3.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/js.png" alt="" srcset="" />
+              </div>
+              <div class="img-wrapper">
+                <img src="./static/physics.png" alt="" srcset="" />
+              </div>
+              
+              <!-- Increase the Content if you want  in both the sliders class-->
+            </div>
+            <!-- Second sliders ends here  -->
+          </div>
+          <!-- skill-slider (Parent of sliders class) element ends Here -->
+        </div>
+      </div>
+      <!-- page5 (My Skills) section ends Here -->
+
+      <!-- #page6 starts from here which includes Contact Me section -->
+      <div id="page6">
+        <div class="heading">
+          <h3>Contact Us</h3>
+          <h5>Wants to Talk?</h5>
+        </div>
+        <div id="page6-main">
+          <div id="p6-left" class="p6-childClass">
+            <h2>Arpita Singh</h2>
+            <h4>Developer and Designer</h4>
+            <p>
+              I am available for Job and Freelancer work. Contact me via Contact
+              Form, Email or My Linkedin Profile.
+            </p>
+            <h4 class="contact-icons">
+              <i class="fa-solid fa-envelope"></i> : &nbsp;
+              <a href="mailto:arpitaofficial11@gmail.com"
+                >arpitaofficial11@gmail.com</a
+              >
+            </h4>
+            <h4 class="contact-icons">
+              <i class="fa-brands fa-linkedin"></i> : &nbsp;
+              <a href="https://www.linkedin.com/in/arpita-singh-934a1b273"
+                >Arpita Singh</a
+              >
+            </h4>
+          </div>
+          <div id="p6-right" class="p6-childClass">
+            <form
+              action="https://formsubmit.co/arpitaofficial11@gmail.com"
+              class="form-control"
+              method="POST"
+            >
+              <div id="form-r1 row">
+                <div class="col-sm-6">
+                  <label>
+                    Your Name <br />
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Name"
+                      required
+                      placeholder="Enter Your Name..."
+                    />
+                  </label>
+                </div>
+                <div class="col-sm-6">
+                  <label>
+                    Your Email <br />
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="Email"
+                      required
+                      placeholder="Enter Your Email..."
+                    />
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <label>
+                  Your Message <br />
+                  <textarea
+                    name="message"
+                    cols="75"
+                    class="form-control"
+                    id="Message"
+                    placeholder="Enter Your Message..."
+                  ></textarea
+                  ><br />
+                </label>
+              </div>
+              <div class="col-sm-6 my-0">
+                <input
+                  type="hidden"
+                  name="_next"
+                  value=""
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="http://192.168.45.172:5501/">
+                <!-- <input type="hidden" name="_autoresponse" value="your custom message"> -->
+                <input type="submit" value="Save" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="credits-section">
+          <span> &copy; </span> : Designed and Bulit By <b> Arpita Singh</b>.
+        </div>
+      </div>
+      <!-- page6 (Contact Me) section ends Here -->
+    </div>
+    <script src="./Js/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
